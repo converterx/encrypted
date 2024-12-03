@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConverterX Encyrpted</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encyrpted Converter Machine</h1>
+    <textarea id="inputText" placeholder="Enter text..."></textarea>
+    
+    <select id="cipherMethod">
+      <option value="caesar">Caesar Cipher</option>
+      <option value="rot13">ROT13</option>
+      <option value="base64">Base64 Encoding</option>
+      <option value="vigenere">Vigenère Cipher (Anahtar: 'KEY')</option>
+      <option value="atbash">Atbash Cipher</option>
+      <option value="binary">Binary Encoding</option>
+    </select>
+
+    <button onclick="encryptText()">Encyrpt</button>
+    <button onclick="decryptText()">Solve</button>
+
+    <h3>Encrypted Text:</h3>
+    <textarea id="outputText" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
