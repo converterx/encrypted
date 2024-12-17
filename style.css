@@ -22,7 +22,7 @@ body {
 h1 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #ff8c00; /* Koyu turuncu */
+  color: #ff8c00; /* Dark orange */
 }
 
 textarea {
@@ -52,7 +52,7 @@ button {
   padding: 10px;
   font-size: 1em;
   color: white;
-  background-color: #ff8c00; /* Koyu turuncu */
+  background-color: #ff8c00; /* Dark orange */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: #ff751a; /* Daha açık turuncu */
+  background-color: #ff751a; /* Light orange */
 }
 
 h3 {
